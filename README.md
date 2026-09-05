@@ -1,4 +1,4 @@
-\# 🛡️ Network Intrusion Detection System
+🛡️ Network Intrusion Detection System
 
 
 
@@ -6,7 +6,7 @@ A machine learning-based network intrusion detection system that analyzes networ
 
 
 
-\## 📌 Project Overview
+ 📌 Project Overview
 
 
 
@@ -14,7 +14,7 @@ This project uses machine learning techniques to detect potential cyberattacks i
 
 
 
-\## 🎯 Objectives
+ 🎯 Objectives
 
 
 
@@ -32,23 +32,22 @@ This project uses machine learning techniques to detect potential cyberattacks i
 
 
 
-\## 🧠 Machine Learning Models
+ 🧠 Machine Learning Models
 
 
 
-\### Decision Tree
+ Decision Tree
 
 A tree-based classification algorithm used to learn decision rules from network traffic features.
 
 
-
-\### Random Forest
+ Random Forest
 
 An ensemble learning algorithm that combines multiple decision trees to improve classification performance and robustness.
 
 
 
-\## 📊 Dataset
+ 📊 Dataset
 
 
 
@@ -72,7 +71,7 @@ The dataset includes features related to:
 
 
 
-\## ⚙️ Methodology
+ ⚙️ Methodology
 
 
 
@@ -90,7 +89,7 @@ The dataset includes features related to:
 
 
 
-\## 🛠️ Technologies Used
+ 🛠️ Technologies Used
 
 
 
@@ -110,7 +109,7 @@ The dataset includes features related to:
 
 
 
-\## 🌐 Live Demo
+ 🌐 Live Demo
 
 
 
@@ -122,7 +121,7 @@ The trained model is deployed using \*\*Streamlit Community Cloud\*\*.
 
 
 
-\## 🚀 How to Run Locally
+ 🚀 How to Run Locally
 
 
 
