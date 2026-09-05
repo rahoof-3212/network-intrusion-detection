@@ -88,10 +88,13 @@ div[data-testid="stNumberInput"] label {
 """, unsafe_allow_html=True)
 
 # ---------- Load model ----------
-model = joblib.load('intrusion_model.pkl')
-selected_features = joblib.load('selected_features.pkl')
-examples = joblib.load('examples.pkl')
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
+
+model = joblib.load(BASE_DIR / 'intrusion_model.pkl')
+selected_features = joblib.load(BASE_DIR / 'selected_features.pkl')
+examples = joblib.load(BASE_DIR / 'examples.pkl')
 # ---------- Header ----------
 st.markdown('<p class="header-title">🛡️ NETWORK INTRUSION DETECTION</p>', unsafe_allow_html=True)
 st.markdown('<p class="header-sub">Machine Learning powered classification of network traffic — Normal vs Attack</p>', unsafe_allow_html=True)
