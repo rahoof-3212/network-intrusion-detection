@@ -113,13 +113,13 @@ The dataset includes features related to:
 
 
 
-The trained model is deployed using \*\*Streamlit Community Cloud\*\*.
+The trained model is deployed using *Streamlit Community Cloud*.
 
 
 
 > Add your live Streamlit application link here.
 
-
+https://network-intrusion-detection-btxghafnnbwqf5wth6l7yc.streamlit.app
 
  🚀 How to Run Locally
 
